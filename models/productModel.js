@@ -15,9 +15,9 @@ const productSchema = mongoose.Schema(
             type : Number,
             required : true,
         },
-        timeStamp:{
-            timestamps : true
-        }
+    },
+    {
+        timestamps : true
     }
 )
 
