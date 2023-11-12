@@ -11,7 +11,7 @@ app.use(express.json());
 
 //DB Connection
 const mongoURI = process.env.MONGODB_URI;
-mongoose.connect('mongodb+srv://username:password@homework-cluster.tilf3zg.mongodb.net/?retryWrites=true&w=majority', option).then(function(){
+mongoose.connect('mongodb+srv://termsberk38:381998Berk!@homework-cluster.tilf3zg.mongodb.net/?retryWrites=true&w=majority', option).then(function(){
     console.log("Connected to Mongo")
 }, function(err) {
   console.log(err)
